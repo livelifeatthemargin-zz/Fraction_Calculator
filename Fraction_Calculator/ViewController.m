@@ -223,6 +223,15 @@
     }
 }
 
+-(IBAction) convertButton:(UIButton *)sender
+{
+    double result;
+    result = [myCalculator.accumulator convertToNum];
+    displayString = [NSMutableString stringWithFormat:@"%f", result];
+    display.text = displayString;
+  
+}
+
 -(IBAction) clickClear
 {
     

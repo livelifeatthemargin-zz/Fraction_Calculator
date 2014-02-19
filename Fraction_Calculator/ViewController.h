@@ -26,7 +26,7 @@
 -(IBAction) clickDigit8: (UIButton *) sender;
 -(IBAction) clickDigit9: (UIButton *) sender;
 -(IBAction) clickDigit0: (UIButton *) sender;
-
+-(IBAction) convertButton: (UIButton *) sender;
 
 -(IBAction) clickPlus;
 -(IBAction) clickMinus;
